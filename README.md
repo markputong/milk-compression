@@ -1,13 +1,5 @@
-# Chode
+# .milk Compression
 
-The Common Handling Of Data in Echo games is a set of tools to make it easier to work with data from the Echo VR API. Chode includes a library of commonly used functions to pull out relevant data from API responses, and a replay recording/compression/decompression tool. 
-More tools are added as they come up.
-
-## Installation
-
-```bash
-npm install chode
-```
 
 # Replay Compression Format
 ### File Header
@@ -70,7 +62,6 @@ Example of where Blue team's Player 3 has disc
 | `Player Index` |   `0`   |  `1`  |  `2`  |  `3`  |  `4`  |  `5`  |  `6`  |  `7`  |
 The result of this would be `0x10`
 A bit is flagged as 1 if the field is true (ie. Player does have possession, player is stunned,etc)
-
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
