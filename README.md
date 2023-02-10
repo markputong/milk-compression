@@ -14,7 +14,7 @@ Below is the bit flags structure
 | 0       | `Winner, 0 = Blue, 1 = Orange` |
 
 ## Frames
-Compressed CBT data is made of one or more "frames". Frames contain n-chunks where n is the capture rate.
+Compressed milk data is made of one or more "frames". Frames contain n-chunks where n is the capture rate.
 Each frame is independent and supports independent decompression.
 
 ### Frame Format
