@@ -1,5 +1,5 @@
 # .milk Compression
-
+EVR replay files are fairly large in size as they are JSON files. There are a lot of advantages to using JSON, mainly the ease of parsing them. For entire replays of games which are sometimes longer than 10 minutes, that adds up. Replays can reach into the 100's of megabytes. milk was made to minimize that data in a lossy format while still retaining all the relevant data for to have an accurate replay.
 
 # Replay Compression Format
 ### File Header
